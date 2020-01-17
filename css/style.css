@@ -4,7 +4,7 @@ body {
   font-size: 15px;
   line-height: 1.8;
   color: #b3b3b3;
-  background: #fff;
+  background:cornsilk;
 }
 
 a {
@@ -19,7 +19,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5 {
-  color: #000;
+  color: coral;
   font-family: "Playfair Display", times, serif;
 }
 
