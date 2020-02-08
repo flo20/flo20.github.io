@@ -2,8 +2,16 @@
 
 	'use strict';
 
-	// bootstrap dropdown hover
+  
+  // this is the Jquery function  to make the loader hide in the behinning and after 3secs,it will hide the loader
+  $(document).ready(function(){
+    setTimeout(function(){ 
+      $('.sk-folding-cube').addClass('hide');
+      $('.site-wrap').removeClass('hide'); 
+    }, 3000);;
+  });
 
+  // bootstrap dropdown hover
   // loader
   var loader = function() {
     setTimeout(function() { 

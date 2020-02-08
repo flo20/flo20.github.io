@@ -4,24 +4,32 @@
     <title>Florence_Anipa_CV</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800|Playfair+Display:,300, 400, 700" rel="stylesheet">
 
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mediaelement@4.2.7/build/mediaelementplayer.min.css">
-
     <link rel="stylesheet" href="fonts/ionicons/css/ionicons.min.css">
     <link rel="stylesheet" href="fonts/fontawesome/css/font-awesome.min.css">
-
 
     <!-- Theme Style -->
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+     <!-- Loading page animation-->
+     <div class="sk-folding-cube">
+      <div class="sk-cube1 sk-cube"></div>
+      <div class="sk-cube2 sk-cube"></div>
+      <div class="sk-cube4 sk-cube"></div>
+      <div class="sk-cube3 sk-cube"></div>
+    </div>
+  
+     
     
-    <div class="site-wrap">
+    <div class="site-wrap hide">
 
       <a href="#" id= " instant" class="offcanvas-toggle js-offcanvas-toggle " >Menu</a>
       
@@ -47,7 +55,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
       </div>
       
       <aside>
-        <img src = "images/Profile.jpg">
+        <img src = "img/profile_big.jpg">
       </aside>
       <main>
         <h1 class="mb-0">Hi there !</h1>
@@ -63,7 +71,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
           <a href="#" class="mr-2 mb-2">Facebook</a>
           <a href="#" class="mr-2 mb-2">Instagram</a> 
        </p>
-        <!-- <h2 class="mb-4 mt-5">Services</h2>
+        <h2 class="mb-4 mt-5">Services</h2>
         <div class="row">
           <div class="col-md-6 col-lg-6 mb-4">
             <div class="media custom-media  d-block">
@@ -96,13 +104,13 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
           
           <div class="col-md-6 col-lg-6 mb-4">
             <div class="media custom-media  d-block">
-              <div class="icon mr-3"><span class="ion-cube"></span></div>
+              <div class="icon mr-3" data-aos=""><span class="ion-cube"></span></div>
               <div class="media-body">
                 <h3 class="mt-0"><a href="#">Web Applications </a></h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed obcaecati, totam.</p>
               </div>
             </div>
-          </div> -->
+          </div> 
         </div>
         
       </main>
@@ -127,9 +135,11 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 
   gtag('config', 'UA-156442063-1');
 </script>
-
-ga('send', 'event', [eventCategory], [eventAction], [eventLabel], [eventValue], [fieldsObject]);
-
+<!-- 
+ga('send', 'event', [eventCategory], [eventAction], [eventLabel], [eventValue], [fieldsObject]);  -->
+<script>
+  AOS.init();
+</script>
   </body>
 </html>
 
